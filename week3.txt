@@ -1,0 +1,28 @@
+
+
+1.  find . -type f | wc -l   Answer: 473 
+
+this means output of find comand (which is only files no directories)is sent to wc which counts number of lines i.e number of files
+
+
+2. date +%Z  Answer: UTC 
+
+3. Memory Usage:
+
+top
+then M for sort by memory usage
+
+  17936 4852 1396 S  0.0  1.0   0:00.09 nova-agent
+   183m 4140 2924 S  0.0  0.8   0:00.03 whoopsie
+  22684 3888 1648 S  0.0  0.8   0:00.27 bash
+  73344 3580 2772 S  0.0  0.7   0:00.07 sshd
+  49948 2824 2216 S  0.0  0.6   0:00.01 sshd
+  24332 2164 1268 S  0.0  0.4   0:00.42 init
+  17860 1548 1284 S  0.0  0.3   0:00.01 xe-daemon
+
+
+
+4. cat /etc/group | wc -l   Answer: 51 
+
+5. 362.php is the fibbonacci sequence. 
+

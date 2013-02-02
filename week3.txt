@@ -1,11 +1,13 @@
-
+Week 3 Scavenger Hunt 
 
 1.  find . -type f | wc -l   Answer: 473 
 
-this means output of find comand (which is only files no directories)is sent to wc which counts number of lines i.e number of files
+This means output of find command with type flag set to file (which is only files no directories). The pipe then counts the lines which are the files in the directory. 
 
 
 2. date +%Z  Answer: UTC 
+
+The %Z is the environmental variable that is the time zone. Date represents the day month time and time zone. 
 
 3. Memory Usage:
 
@@ -23,6 +25,7 @@ then M for sort by memory usage
 
 
 4. cat /etc/group | wc -l   Answer: 51 
+This displays the content of the group file and counts the lines for the group file to give the number of groups. 
 
-5. 362.php is the fibbonacci sequence. 
+5. 362.php is the fibbonacci sequence. You start with 0 and 1. Then add the last number and the previous number to get the next number in the sequence. 
 
